@@ -1,0 +1,14 @@
+/* Animaciones y ajustes finos estéticos */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Tipografía de fallback potente si falla el CDN */
+h1, h2, h3 {
+    font-family: 'Arial Black', sans-serif;
+}
+
+/* Efecto de gradiente de transición suave para los inputs */
+input:focus {
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
+}
